@@ -15,4 +15,7 @@ api = tweepy.API(auth)
 
 # client.create_tweet(text = "Let's Go!")
 
-client.create_tweet(in_reply_to_tweet_id="1654151396785115137", text="Alhamdo lilah")
+# client.create_tweet(in_reply_to_tweet_id="1654151396785115137", text="Alhamdo lilah")
+
+# for tweet in api.home_timeline():
+#     print(tweet.text)
